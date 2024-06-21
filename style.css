@@ -1,0 +1,45 @@
+html{
+    background: linear-gradient(rgb(104, 104, 226), rgb(64, 64, 170));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+.main-div{
+    margin-top: 190px;
+    margin-left: 100px;
+}
+h1{
+    font-family: sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 50px;
+}
+span{
+    color: yellowgreen;
+}
+.input-main{
+    background-color: rgb(176, 197, 238);
+    border-radius: 10px;
+    padding: 20px 50px 20px 50px;
+    width: 600px;
+}
+input{
+    /* padding: 15px 150px 15px 150px;  */
+    border-radius: 10px;
+    width: 350px;
+    padding: 10px;
+    font-size: 30px;
+}
+button{
+    background-color: rgb(240, 240, 52);
+    padding: 12px 30px 12px 30px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.input-main{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
